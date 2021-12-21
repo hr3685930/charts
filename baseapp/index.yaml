@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  baseapp:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-12-21T11:53:15.367116+08:00"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: file://charts/mysql
+      version: 1.6.2
+    - condition: redis.enabled
+      name: redis
+      repository: file://charts/redis
+      version: 10.5.7
+    description: A Helm chart for Kubernetes
+    digest: 21b71c788201413e6e616f96d674f455f25d3a7f3a144cd607fb1723fe9fd619
+    name: baseapp
+    type: application
+    urls:
+    - baseapp-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-12-21T11:53:15.364141+08:00"
