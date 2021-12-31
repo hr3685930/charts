@@ -3,7 +3,7 @@ entries:
   baseapp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-12-31T17:51:17.859819+08:00"
+    created: "2021-12-31T18:07:19.283361+08:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -14,10 +14,10 @@ entries:
       repository: file://charts/redis
       version: 10.5.7
     description: A Helm chart for Kubernetes
-    digest: 335a464b810d97d11b65b5022c9b426b22bffe11d28254e8fd284d3f38b58364
+    digest: 5c2b2daea556211dc158f50792fde0aeeb943706b63009078e88eafc406abeb6
     name: baseapp
     type: application
     urls:
     - baseapp-0.1.0.tgz
     version: 0.1.0
-generated: "2021-12-31T17:51:17.85726+08:00"
+generated: "2021-12-31T18:07:19.280293+08:00"
